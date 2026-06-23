@@ -6,14 +6,19 @@ HanaEdit の Homebrew tap です。
 
 ```sh
 brew tap webfreakjp/hanaedit
+brew trust webfreakjp/hanaedit
 brew install hanaedit
 ```
 
 直接インストールする場合:
 
 ```sh
+brew trust --formula webfreakjp/hanaedit/hanaedit
 brew install webfreakjp/hanaedit/hanaedit
 ```
+
+`Refusing to load formula ... from untrusted tap` と表示された場合は、上の
+`brew trust` を実行してから再度 `brew install` してください。
 
 インストール後の確認:
 

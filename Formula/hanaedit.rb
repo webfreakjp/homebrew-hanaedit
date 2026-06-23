@@ -2,7 +2,7 @@ class Hanaedit < Formula
   desc "macOS native AppKit text editor"
   homepage "https://github.com/webfreakjp/hanaedit"
   url "https://github.com/webfreakjp/hanaedit/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  sha256 "2498047afdf6fb9ccf4169b442da321de5b81f33d5360c8a46a2b8d40a0e71e9"
   license "MIT"
 
   depends_on :macos
