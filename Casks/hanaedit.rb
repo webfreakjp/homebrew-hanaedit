@@ -1,6 +1,6 @@
 cask "hanaedit" do
-  version "0.1.0"
-  sha256 "6d2130a657423914822b9b34bd29861eddc77823d226fdbcd1f6e5cdcc780fcb"
+  version "0.1.1"
+  sha256 "dce52073eed3e764f65ad2356e0a2b5c06bfe6a6a0cdb2c675608b5905735c4a"
 
   url "https://github.com/webfreakjp/hanaedit/releases/download/v#{version}/HanaEdit-#{version}.zip"
   name "HanaEdit"

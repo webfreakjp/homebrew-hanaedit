@@ -29,6 +29,16 @@ brew install --cask webfreakjp/hanaedit/hanaedit
 hanaedit --version
 ```
 
+現在の配布物は Apple Developer ID 署名と notarize が未対応です。Launchpad や Finder から
+起動したときに「壊れているため開けません」と表示される場合は、quarantine 属性を外して
+ください。
+
+```sh
+xattr -dr com.apple.quarantine /Applications/HanaEdit.app
+```
+
+今後、Developer ID 署名と notarize に対応してこの手順を不要にする予定です。
+
 ## Cask
 
 この tap は Cask のみを提供します。
